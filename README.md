@@ -21,21 +21,23 @@ The project performs **data preprocessing, exploratory data analysis (EDA), visu
 
 ---
 
-## 📂 Project Structure
 
+## 📂 Project Structure
+```plaintext
 Retail-Sales-Forecasting-Pipeline/
-├── data/ # Dataset (raw & processed)
-├── notebooks/ # Full EDA in Jupyter
-├── scripts/ # Modular Python scripts
-│ ├── preprocess.py # Data cleaning & preparation
-│ ├── visualizations.py # All plots and charts
-│ └── save_plots.py # Save plots as PNG
-├── app/ # Streamlit app & images
-│ ├── app.py
-│ └── images/
-├── screenshots/ # For README previews
-├── requirements.txt # Dependencies
-└── README.md # Documentation
+├── data/                  # Dataset (raw & processed)
+├── notebooks/             # Full EDA in Jupyter
+├── scripts/               # Modular Python scripts
+│   ├── preprocess.py       # Data cleaning & preparation
+│   ├── visualizations.py   # All plots and charts
+│   └── save_plots.py       # Save plots as PNG
+├── app/                   # Streamlit app & images
+│   ├── app.py
+│   └── images/
+├── screenshots/           # For README previews
+├── requirements.txt       # Dependencies
+└── README.md              # Documentation
+
 
 
 ---
